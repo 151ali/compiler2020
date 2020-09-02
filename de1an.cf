@@ -1,0 +1,25 @@
+begin
+
+& declaration 
+
+let _i = 0;
+
+
+let _n;
+
+& lecture  
+>>_n ;
+    
+while(_i <= _n):
+    
+& affichage
+
+<<_x ;
+
+_i = _i + 1;
+
+ewhile
+
+
+
+end
