@@ -191,7 +191,7 @@ class App(QMainWindow):
                     QMessageBox.warning(self, 'err', "vérifier la syntaxe de votre code :(", QMessageBox.Close, QMessageBox.Close)
                 else:
                     sym.generate_c_code(used)
-                    #sym.code_run()
+                    sym.code_run()
             else :
                 QMessageBox.warning(self, 'err', "if faut faire \n\nune analyse lexicale d'abord !", QMessageBox.Close, QMessageBox.Close)
     #=============================================================================================================          
